@@ -7,6 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## README Tarea 6
+
+Project name: Tarea 6
+Project description:
+Esta plataforma ayuda a los profesores a gestionar cursos y estudiantes en una escuela de robótica.
+ Admite tres roles de usuario: administrador, profesor y estudiante.
+ Los administradores pueden administrar usuarios y cursos, 
+ los profesores pueden asignar cursos a grupos y los estudiantes pueden ver los cursos asignados.
+
+ER Diagram:
+![ER Diagram](public/images/ERDiagram.png)
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

@@ -2,17 +2,18 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Course extends Model
 {
-    public function roboticsKit()
-    {
-        return $this->belongsTo(RoboticsKit::class);
-    }
+    use HasFactory;
 
-    public function groups()
-    {
-        return $this->belongsToMany(Group::class);
-    }
+    protected $fillable = [
+        'course_key',
+        'course_name',
+        'robotics_kit_id',
+        'cover_image',
+        'content',
+    ];
 }
